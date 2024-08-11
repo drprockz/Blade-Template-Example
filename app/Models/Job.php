@@ -31,6 +31,7 @@ class Job {
 
         if (!$job) {
             abort(404);
+            dd('Job not found');
         }
     }
 }
